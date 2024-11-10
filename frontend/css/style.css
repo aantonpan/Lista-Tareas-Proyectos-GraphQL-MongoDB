@@ -1,0 +1,91 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+/* Estilo para las columnas de tareas */
+.task-column {
+    min-height: 400px; /* Mantener suficiente espacio para tareas */
+    background-color: #ffffff; /* Color más claro */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interior */
+    margin: 10px; /* Separación entre columnas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para efecto de elevación */
+}
+
+
+/* Estilo para la barra de navegación */
+.navbar-custom {
+    background-color: #343a40; /* Color de fondo oscuro */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para el efecto flotante */
+    position: fixed; /* Barra fija */
+    width: 100%; /* Abarca todo el ancho */
+    top: 0;
+    z-index: 1000; /* Asegura que esté siempre encima de otros elementos */
+}
+
+/* Centrar el contenido del menú */
+.navbar .navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    color: #f1f1f1;
+    font-size: 1rem; 
+}
+
+.navbar-brand:hover {
+    color: #007bff !important; /* Cambia el color al pasar el mouse si lo deseas */
+}
+.navbar .navbar-brand img {
+    margin-right: 10px;
+}
+
+/* Estilo para los enlaces */
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-size: 1rem;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff !important; 
+}
+
+/* Estilo para el ícono de logout */
+.navbar-nav .nav-link i {
+    margin-right: 5px;
+}
+
+/* Ajuste del espacio debajo del menú fijo */
+body {
+    padding-top: 80px; 
+}
